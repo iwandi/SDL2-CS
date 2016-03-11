@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>SDL2-CS</id>
+        <version>0.0.0</version><!-- overridden by "NuGet pack -Version" flag -->
+        <authors>flibitijibibo</authors>
+        <copyright>Copyright © 2016 flibitijibibo</copyright>
+        <projectUrl>https://github.com/flibitijibibo/SDL2-CS</projectUrl>
+        <licenseUrl>https://opensource.org/licenses/zlib</licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>This is SDL2#, a C# wrapper for SDL2.</description>
+        <tags>SDL2 SDL SDL2-CS SDL-CS</tags>
+        <releaseNotes>
+        </releaseNotes>
+	</metadata>
+	<files>
+		<file src="..\LICENSE" />
+
+		<file src="..\src/LPUtf8StrMarshaler.cs" target="content\net20\SDL2-CS" />
+		<file src="..\src/SDL2.cs" target="content\net20\SDL2-CS" />
+		<file src="..\src/SDL2_image.cs" target="content\net20\SDL2-CS" />
+		<file src="..\src/SDL2_mixer.cs" target="content\net20\SDL2-CS" />
+		<file src="..\src/SDL2_ttf.cs" target="content\net20\SDL2-CS" />
+	</files>
+</package>

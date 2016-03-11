@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>SDL2-CS.dll</id>
+        <version>0.0.0</version><!-- overridden by "NuGet pack -Version" flag -->
+        <authors>flibitijibibo</authors>
+        <copyright>Copyright © 2016 flibitijibibo</copyright>
+        <projectUrl>https://github.com/flibitijibibo/SDL2-CS</projectUrl>
+        <licenseUrl>https://opensource.org/licenses/zlib</licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>This is SDL2#, a C# wrapper for SDL2.</description>
+        <tags>SDL2 SDL SDL2-CS SDL-CS</tags>
+        <releaseNotes>
+        </releaseNotes>
+    </metadata>
+    <files>
+        <file src="..\LICENSE" />
+
+        <!-- net20 -->
+        <file src="..\bin\Release\SDL2-CS.dll" target="lib\net20" />
+		<file src="..\bin\Release\SDL2-CS.dll.config" target="lib\net20" /><file src="..\bin\Release\SDL2-CS.dll.config" target="lib\net20" />
+		<file src="..\bin\Release\SDL2-CS.XML" target="lib\net20" />
+				
+		
+        <!-- net30 -->
+        <!--<file src="..\bin\Release\SDL2-CS.dll" target="lib\net30" />-->
+		
+        <!-- net35 -->
+        <!--<file src="..\bin\Release\SDL2-CS.dll" target="lib\net35" />-->
+		
+        <!-- net40 -->
+        <!--<file src="..\bin\Release\SDL2-CS.dll" target="lib\net40" />-->
+		
+        <!-- net45 -->
+        <!--<file src="..\bin\Release\SDL2-CS.dll" target="lib\net45" />-->
+		
+        <!-- net46 -->
+        <!--<file src="..\bin\Release\SDL2-CS.dll" target="lib\net46" />-->
+
+      <!-- tools -->
+        <!-- <file src="..\NuGet\SDL2-CS.snk" target="tools" /> -->
+        <!-- <file src="..\NuGet\SignPackageAssemblies.ps1" target="tools" /> -->
+    </files>
+</package>
